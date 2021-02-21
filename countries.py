@@ -14,15 +14,9 @@ def define_file(file):
     return result[1]
 
 @st.cache(allow_output_mutation=True)
-def read_file(file):
-    #reading the file depending on its type 
-    if (define_file(file) == "csv"):                
-        df = pd.read_csv(file)
-    elif (define_file(file) == "xlsx" or define_file(file) == "xls"):
-        df = pd.read_excel(file,engine='openpyxl')
-    else:
-            df = []
-    return df
+def read_file(file):             
+    df = pd.read_csv(file, encoding='latin-1')
+   
 
 file  = ("countries.csv")
 file2 = ("mena.csv")
@@ -34,7 +28,7 @@ if len(file) == 0:
 else:
     df = read_file(file)
     mena = read_file(file2)
-    country_status = read_file(file3, encoding='latin-1')
+    country_status = read_file(file3)
     passport_index = read_file(file4)
 
     df1 = passport_index.merge(country_status, left_on='Country_name', right_on='TableName', how='inner')
