@@ -9,6 +9,11 @@ import json
 from streamlit_observable import observable
 import plotly.express as px
 
+from importlib.metadata import version
+version('pandas')
+
+
+
 @st.cache(allow_output_mutation=True)
 def define_file(file):
     result = file.split(".")
