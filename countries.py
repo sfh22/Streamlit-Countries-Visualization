@@ -32,10 +32,10 @@ file4 = ("Passport_index.csv")
 if len(file) == 0:
     st.warning("Add a file")
 else:
-    df = read_file(file, encoding = 'utf-8')
-    mena = read_file(file2, encoding = 'utf-8')
-    country_status = read_file(file3, encoding = 'utf-8')
-    passport_index = read_file(file4, encoding = 'utf-8')
+    df = read_file(file)
+    mena = read_file(file2)
+    country_status = read_file(file3)
+    passport_index = read_file(file4)
 
     df1 = passport_index.merge(country_status, left_on='Country_name', right_on='TableName', how='inner')
 
