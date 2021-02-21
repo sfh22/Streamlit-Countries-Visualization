@@ -31,8 +31,7 @@ else:
     country_status = read_file(file3)
     passport_index = read_file(file4)
 
-    df1 = passport_index.merge(country_status, left_on='Country_name', right_on='TableName', how='inner')
-
+  
     all_columns = df.columns.tolist()
 
     df.fillna(df.mean(), inplace=True)
@@ -313,14 +312,4 @@ else:
             st.text('')
             st.text('')
         
-        st.subheader('Population and Life Expectancy shown per Region and Country')
-        df1 = px.data.gapminder().query("year == 2007")
-        fig2 = px.sunburst(df1, path=['continent', 'country'], values='pop',
-                color='lifeExp', hover_data=['iso_alpha'],
-                color_continuous_scale='RdBu',
-                color_continuous_midpoint=np.average(df1['lifeExp'], weights=df1['pop']))
-
-        if st.checkbox('Show Pie Chart'):
-            st.plotly_chart(fig2)
-            st.text('')
-            st.text('')
+        
