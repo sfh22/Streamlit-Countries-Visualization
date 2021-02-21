@@ -34,7 +34,7 @@ if len(file) == 0:
 else:
     df = read_file(file)
     mena = read_file(file2)
-    country_status = read_file(file3)
+    country_status = read_file(file3, encoding='latin-1')
     passport_index = read_file(file4)
 
     df1 = passport_index.merge(country_status, left_on='Country_name', right_on='TableName', how='inner')
