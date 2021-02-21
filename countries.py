@@ -8,16 +8,6 @@ from streamlit_observable import observable
 import plotly.express as px
 
 
-@st.cache(allow_output_mutation=True)
-def define_file(file):
-    result = file.split(".")
-    return result[1]
-
-@st.cache(allow_output_mutation=True)
-def read_file(file):             
-    df = pd.read_csv(file, encoding='latin-1')
-   
-
 file  = ("countries.csv")
 file2 = ("mena.csv")
 file3 = ("Country_status.csv")
@@ -26,10 +16,10 @@ file4 = ("Passport_index.csv")
 if len(file) == 0:
     st.warning("Add a file")
 else:
-    df = read_file(file)
-    mena = read_file(file2)
-    country_status = read_file(file3)
-    passport_index = read_file(file4)
+    df = pd.read_csv(file, encoding='latin-1')
+    mena = pd.read_csv(file2, encoding='latin-1')
+    country_status = pd.read_csv(file3, encoding='latin-1')
+    passport_index = pd.read_csv(file4, encoding='latin-1')
 
   
     all_columns = df.columns.tolist()
