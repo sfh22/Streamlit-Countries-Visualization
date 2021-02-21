@@ -1,0 +1,77 @@
+country,income_group,year,visa_free_score,rank
+Algeria,Upper middle income,2015,47,78
+Algeria,Upper middle income,2016,47,77
+Algeria,Upper middle income,2017,48,78
+Algeria,Upper middle income,2018,59,76
+Bahrain,High income,2015,72,56
+Bahrain,High income,2016,72,54
+Bahrain,High income,2017,76,55
+Bahrain,High income,2018,84,53
+Djibouti,Lower middle income,2015,42,83
+Djibouti,Lower middle income,2016,40,84
+Djibouti,Lower middle income,2017,45,81
+Djibouti,Lower middle income,2018,52,83
+Egypt,Lower middle income,2015,49,76
+Egypt,Lower middle income,2016,48,75
+Egypt,Lower middle income,2017,50,76
+Egypt,Lower middle income,2018,56,79
+Iran,Upper middle income,2015,36,89
+Iran,Upper middle income,2016,36,88
+Iran,Upper middle income,2017,35,89
+Iran,Upper middle income,2018,42,91
+Iraq,Upper middle income,2015,29,93
+Iraq,Upper middle income,2016,28,93
+Iraq,Upper middle income,2017,27,93
+Iraq,Upper middle income,2018,33,96
+Jordan,Upper middle income,2015,48,77
+Jordan,Upper middle income,2016,46,78
+Jordan,Upper middle income,2017,47,79
+Jordan,Upper middle income,2018,56,79
+Kuwait,High income,2015,81,50
+Kuwait,High income,2016,81,50
+Kuwait,High income,2017,88,50
+Kuwait,High income,2018,96,46
+Lebanon,Upper middle income,2015,40,85
+Lebanon,Upper middle income,2016,38,86
+Lebanon,Upper middle income,2017,38,86
+Lebanon,Upper middle income,2018,45,89
+Libya,Upper middle income,2015,37,88
+Libya,Upper middle income,2016,37,87
+Libya,Upper middle income,2017,39,85
+Libya,Upper middle income,2018,46,88
+Malta,High income,2015,151,8
+Malta,High income,2016,148,9
+Malta,High income,2017,155,7
+Malta,High income,2018,161,5
+Morocco,Lower middle income,2015,58,68
+Morocco,Lower middle income,2016,55,69
+Morocco,Lower middle income,2017,58,69
+Morocco,Lower middle income,2018,68,67
+Oman,High income,2015,70,57
+Oman,High income,2016,69,56
+Oman,High income,2017,73,57
+Oman,High income,2018,81,55
+Qatar,High income,2015,75,53
+Qatar,High income,2016,77,51
+Qatar,High income,2017,78,54
+Qatar,High income,2018,88,50
+Saudi Arabia,High income,2015,68,59
+Saudi Arabia,High income,2016,66,58
+Saudi Arabia,High income,2017,71,59
+Saudi Arabia,High income,2018,79,57
+Syria,Low income,2015,32,91
+Syria,Low income,2016,29,92
+Syria,Low income,2017,31,91
+Syria,Low income,2018,36,94
+Tunisia,Lower middle income,2015,61,65
+Tunisia,Lower middle income,2016,60,64
+Tunisia,Lower middle income,2017,63,65
+Tunisia,Lower middle income,2018,70,65
+United Arab Emirates,High income,2015,122,28
+United Arab Emirates,High income,2016,122,27
+United Arab Emirates,High income,2017,131,24
+United Arab Emirates,High income,2018,163,3
+Yemen,Low income,2015,41,84
+Yemen,Low income,2016,40,84
+Yemen,Low income,2017,37,87
+Yemen,Low income,2018,40,92
