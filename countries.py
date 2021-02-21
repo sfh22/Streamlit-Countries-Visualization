@@ -4,13 +4,11 @@ import numpy as np
 import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
-from enum import Enum
-import json 
 from streamlit_observable import observable
 import plotly.express as px
 
 from importlib.metadata import version
-version('pandas')
+#version('enum')
 
 
 
